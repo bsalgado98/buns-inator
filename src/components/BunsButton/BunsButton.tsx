@@ -21,7 +21,7 @@ const BunsButton = () => {
         const randomPrefixWordList = getRandomArrayItem(prefixes)
         const randomSuffixWordList = getRandomArrayItem(suffixes)
 
-        const createRandomWord = ({ words, color, partOfSentence }: WordInfoInterface) => {
+        const createRandomWord = ({ words, color, partOfSentence }: WordInfoInterface): WordCardInterface => {
             const randomWord = getRandomArrayItem(words)
             return {
                 text: randomWord,
