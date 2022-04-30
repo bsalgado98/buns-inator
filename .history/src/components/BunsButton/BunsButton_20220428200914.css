@@ -1,0 +1,22 @@
+.buns-button {
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 0 12px;
+    line-height: 20px;
+    height: 30px;
+    max-height: 30px;
+    background: #566AE5;
+    font-weight: 700;
+    border: 0;
+    border-radius: 0;
+    color: #FFFFFF;
+    transition-timing-function: ease-in-out;
+    transition-property: box-shadow;
+    transition-duration: 150ms;
+}
+
+.buns-button :hover {
+    box-shadow: 0 2px 2px rgb(39 44 52 / 12%);
+}

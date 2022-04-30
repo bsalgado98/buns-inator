@@ -1,0 +1,14 @@
+.App {
+    text-align: center;
+    background: gray;
+    height: 100vh;
+    display: flex;
+}
+
+.word-bank {
+    height: 30%;
+}
+
+.subject-card-container {
+    height: 40%;
+}

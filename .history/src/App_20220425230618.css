@@ -1,0 +1,15 @@
+.App {
+    text-align: center;
+    background: gray;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.word-bank {
+    flex-grow: 1;
+}
+
+.subject-card-container {
+    flex-grow: 1;
+}

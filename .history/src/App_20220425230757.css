@@ -1,0 +1,16 @@
+.App {
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.word-bank {
+}
+
+.subject-card-container {
+    flex-grow: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

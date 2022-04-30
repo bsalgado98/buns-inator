@@ -1,0 +1,5 @@
+.section {
+    margin: 5px;
+    background-color: rgba(25, 25, 25, .75);
+    backdrop-filter: blur(5px);
+}

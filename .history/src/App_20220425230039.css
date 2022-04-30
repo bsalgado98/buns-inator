@@ -1,0 +1,12 @@
+.App {
+    text-align: center;
+    background: gray;
+}
+
+.word-bank {
+    height: 50%;
+}
+
+.subject-card-container {
+    height: 50%;
+}
