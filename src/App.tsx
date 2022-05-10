@@ -15,7 +15,7 @@ function App() {
     return (
         <div className="App">
             <div className="word-bank">
-                <WordBank bankTitle='Prefix Powerups' color={COLOR.PREFIX_POWERUPS} wordCollection={prefixes} />
+                <WordBank bankTitle='Prefixes' color={COLOR.PREFIX_POWERUPS} wordCollection={prefixes} />
             </div>
             <div className="subject-card-container">
                 <WordBuilder />
@@ -24,7 +24,7 @@ function App() {
                 <BunsButton />
             </div>
             <div className="word-bank">
-                <WordBank bankTitle='Super Suffixes' color={COLOR.SUPER_SUFFIXES} wordCollection={suffixes} />
+                <WordBank bankTitle='Suffixes' color={COLOR.SUPER_SUFFIXES} wordCollection={suffixes} />
             </div>
         </div>
     );
