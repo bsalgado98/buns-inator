@@ -26,3 +26,5 @@ yarn-error.log*
 
 # secrets, shh...
 .env
+
+/.history

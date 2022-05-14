@@ -5,7 +5,6 @@ const WordBank = ({ bankTitle = "N/A", color = "#000000", wordCollection = [] })
     const styles = {
         container: {
             style: {
-                backgroundColor: `${color}88`,
                 display: 'flex',
                 flexDirection: 'column',
                 padding: '10px'
@@ -14,7 +13,9 @@ const WordBank = ({ bankTitle = "N/A", color = "#000000", wordCollection = [] })
         title: {
             style: {
                 color: color,
-                backgroundColor: 'white'
+                backgroundColor: 'white',
+                padding: '10px',
+                borderRadius: '10px'
             },
             container: {
                 style: {

@@ -9,7 +9,6 @@ const WordBuilder = () => {
             style: {
                 display: 'flex',
                 width: '100%',
-                background: 'rgba(0, 0, 0, 0.8)',
                 justifyContent: 'center',
                 alignItems: 'center'
             }
