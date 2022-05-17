@@ -1,6 +1,6 @@
 import { createSlice } from '@reduxjs/toolkit'
-import WordInfoInterface from '../interfaces/WordInfo.interface'
-import { COLOR, PART_OF_SENTENCE, RARITY } from '../utility/constants'
+import WordInfoInterface from '../../interfaces/WordInfo.interface'
+import { COLOR, PART_OF_SENTENCE, RARITY } from '../../utility/constants'
 
 const initialState = {
     prefixes: [

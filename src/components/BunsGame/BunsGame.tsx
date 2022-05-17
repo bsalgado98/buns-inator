@@ -1,4 +1,4 @@
-import './buns-game.css'
+import styles from './BunsGame.module.css'
 import WordBank from '../../components/WordBank/WordBank'
 import WordBuilder from '../../components/WordBuilder/WordBuilder'
 import BunsButton from '../../components/BunsButton/BunsButton'
@@ -12,17 +12,17 @@ const BunsGame = () => {
         = useSelector((state: any) => state.wordList)
 
     return (
-        <div className="buns-game">
-            <div className="prefixes">
+        <div className={styles.bunsGame}>
+            <div className={styles.prefixes}>
                 <WordBank bankTitle='Prefixes' color={COLOR.PREFIX_POWERUPS} wordCollection={prefixes} />
             </div>
-            <div className="subject-card-container">
+            <div className={styles.subjectCardContainer}>
                 <WordBuilder />
             </div>
-            <div className="buns-button-container">
+            <div className={styles.bunsButtonContainer}>
                 <BunsButton />
             </div>
-            <div className="suffixes">
+            <div className={styles.suffixes}>
                 <WordBank bankTitle='Suffixes' color={COLOR.SUPER_SUFFIXES} wordCollection={suffixes} />
             </div>
         </div>

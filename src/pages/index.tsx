@@ -1,15 +1,14 @@
-import './App.css';
-import BunsGame from './views/buns-game/buns-game';
-import WordInfoInterface from './interfaces/WordInfo.interface';
-import WordCardInterface from './interfaces/WordCard.interface';
+import BunsGame from '../components/BunsGame/BunsGame';
+import WordInfoInterface from '../interfaces/WordInfo.interface';
+import WordCardInterface from '../interfaces/WordCard.interface';
 import { useSelector } from 'react-redux';
 import { useCallback, useEffect, useState } from 'react';
 import { useWebSocket } from 'react-use-websocket/dist/lib/use-websocket';
 
 function App() {
-    const { prefixes, suffixes }
-        : { prefixes: WordInfoInterface[], suffixes: WordInfoInterface[] }
-        = useSelector((state: any) => state.wordList)
+    // const { prefixes, suffixes }
+    //     : { prefixes: WordInfoInterface[], suffixes: WordInfoInterface[] }
+    //     = useSelector((state: any) => state.wordList)
 
     const ps = useSelector((state: any) => state.wordModifiers.prefixes) as WordCardInterface[]
     const [socketUrl, setSocketUrl] = useState('ws://localhost:8000')
@@ -34,8 +33,12 @@ function App() {
             callback(() => sendMessage(JSON.stringify(message)), [])
         })
     }, [ps])
+
+    const style = {
+        fontFamily: 'Menlo'
+    }
     return (
-        <div>
+        <div style={style}>
             <BunsGame/>
         </div>
     );

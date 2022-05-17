@@ -1,5 +1,5 @@
 import { useDispatch } from "react-redux"
-import { addPrefix, addSuffix, removePrefix, removeSuffix } from "../../slices/wordModifiersSlice"
+import { addPrefix, addSuffix, removePrefix, removeSuffix } from "../../app/slices/wordModifiersSlice"
 import { PART_OF_SENTENCE } from "../../utility/constants"
 import WordCardInterface from "../../interfaces/WordCard.interface"
 

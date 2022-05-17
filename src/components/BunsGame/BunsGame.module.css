@@ -1,4 +1,4 @@
-.buns-game {
+.bunsGame {
     text-align: center;
     height: 100vh;
     display: flex;
@@ -9,7 +9,7 @@
     background-attachment: fixed;
 }
 
-.subject-card-container {
+.subjectCardContainer {
     flex-grow: 3;
     display: flex;
     align-items: center;
@@ -28,7 +28,7 @@
 	}
 }
 
-.buns-button-container {
+.bunsButtonContainer {
     height: 20%;
 }
 

@@ -1,6 +1,6 @@
-import './BunsButton.css'
+// import './BunsButton.css'
 import { useSelector, useDispatch } from 'react-redux'
-import { addPrefix, addSuffix } from '../../slices/wordModifiersSlice'
+import { addPrefix, addSuffix } from '../../app/slices/wordModifiersSlice'
 import WordInfoInterface from '../../interfaces/WordInfo.interface'
 import WordCardInterface from '../../interfaces/WordCard.interface'
 
